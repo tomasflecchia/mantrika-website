@@ -6,7 +6,7 @@ function App() {
 
     return (
         <>
-            <h1>Mantrika</h1>
+            <h1>Te Amo Hermosa</h1>
         </>
     )
 }
