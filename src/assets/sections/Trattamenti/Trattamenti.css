@@ -1,0 +1,36 @@
+
+.trattamenti-container {
+    margin: 0 5rem;
+}
+
+.trattamenti-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+    display: flex;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.trattamenti-btn {
+    width: auto;
+}
+
+.trattamenti-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.trattamenti-title {
+    margin: 1rem;
+    color: black;
+}

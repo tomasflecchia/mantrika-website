@@ -1,0 +1,48 @@
+
+#profile {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-logo {
+    position: relative;
+    top: 40px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+    animation: SlideInLeft 0.5s ease;
+}
+
+.main-logo p {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.main-logo p:hover {
+    cursor: default;
+}
+
+.logo {
+    height: auto;
+    width: 700px;
+    justify-content: center;
+    align-self: center;
+}
+
+.ribbon {
+    width: auto;
+}
+
+@keyframes SlideInLeft {
+    from {
+        transform: translateX(-1000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
