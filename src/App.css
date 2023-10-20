@@ -33,7 +33,7 @@ a, .btn {
 
 section {
     scroll-snap-align: start;
-    height: 90vh;
+    height: 100vh;
 }
 
 /* TEXTS */

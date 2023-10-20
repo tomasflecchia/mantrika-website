@@ -8,7 +8,7 @@ export const Contact = () => {
         <div className="contact-info-upper-container">
             <div className="contact-info-container">
                 <img 
-                    src="src\assets\pics\mail.png" 
+                    src="src\assets\pics\otras\mail.png" 
                     alt="Icono del mail" 
                     className='icon contact-icon'
                 />
@@ -16,7 +16,7 @@ export const Contact = () => {
             </div>
             <div className="contact-info-container">
                 <img 
-                    src="src\assets\pics\phone.png" 
+                    src="src\assets\pics\otras\phone.png" 
                     alt="Icono del mail" 
                     className='icon contact-icon'
                 />

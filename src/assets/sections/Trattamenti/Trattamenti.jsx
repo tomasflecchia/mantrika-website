@@ -10,7 +10,7 @@ export const Trattamenti = () => {
                 <div className="details-container color-container">
                     <div className="article-container">
                         <img 
-                            src="src\assets\pics\masaje01.jpg" 
+                            src="src\assets\pics\otras\masaje01.jpg" 
                             alt="Foto de un masaje" 
                             className='trattamenti-img'
                         />
@@ -28,7 +28,7 @@ export const Trattamenti = () => {
                 <div className="details-container color-container">
                     <div className="article-container">
                         <img 
-                            src="src\assets\pics\masaje01.jpg" 
+                            src="src\assets\pics\otras\masaje01.jpg" 
                             alt="Foto de un masaje" 
                             className='trattamenti-img'
                         />
@@ -46,7 +46,7 @@ export const Trattamenti = () => {
                 <div className="details-container color-container">
                     <div className="article-container">
                         <img 
-                            src="src\assets\pics\masaje01.jpg" 
+                            src="src\assets\pics\otras\masaje01.jpg" 
                             alt="Foto de un masaje" 
                             className='trattamenti-img'
                         />

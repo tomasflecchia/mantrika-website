@@ -12,7 +12,7 @@ export const Studio = () => {
   return (
     <>
         <img className='img-bg'
-             src="src\assets\pics\disegno-2.jpg" 
+             src="src\assets\pics\otras\disegno-2.jpg" 
              alt="disegno di fondo" 
         />
         
