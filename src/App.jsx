@@ -1,5 +1,5 @@
 import './App.css'
-import { Profile } from './assets/sections'
+import { Profile, Studio, Trattamenti, Contact, Footer} from './assets/sections'
 
 function App() {
 
@@ -11,9 +11,9 @@ function App() {
 
             {/* <section id='studio'>
                 <Studio />
-            </section>
+            </section> */}
 
-            <section id='trattamenti'>
+            {/* <section id='trattamenti'>
                 <Trattamenti />
             </section>
 

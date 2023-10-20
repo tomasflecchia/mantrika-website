@@ -1,10 +1,9 @@
 import './Studio.css'
-import { ImageSlider } from '../../components/ImageSlider'
-import foto1 from '../../pics/studio/1.jpeg'
-import foto2 from '../../pics/studio/2.jpeg'
-import foto3 from '../../pics/studio/3.jpeg'
-import foto4 from '../../pics/studio/4.jpeg'
-import foto5 from '../../pics/studio/5.jpeg'
+import foto1 from '../../../../public/assets/pics/studio/1.jpeg'
+import foto2 from '../../../../public/assets/pics/studio/2.jpeg'
+import foto3 from '../../../../public/assets/pics/studio/3.jpeg'
+import foto4 from '../../../../public/assets/pics/studio/4.jpeg'
+import foto5 from '../../../../public/assets/pics/studio/5.jpeg'
 
 const images = [ foto1, foto2, foto3, foto4, foto5];
 
@@ -12,7 +11,7 @@ export const Studio = () => {
   return (
     <>
         <img className='img-bg'
-             src="src\assets\pics\otras\disegno-2.jpg" 
+             src="public\assets\pics\otras\disegno-2.jpg" 
              alt="disegno di fondo" 
         />
         
@@ -28,16 +27,16 @@ export const Studio = () => {
 
                 <div className="cards">
                     <label className="card" htmlFor="item-1" id="selector-1">
-                        <img src="src\assets\pics\studio\1.jpeg" />
+                        <img src="\assets\pics\studio\1.jpeg" />
                     </label>
                     <label className="card" htmlFor="item-2" id="selector-2">
-                        <img src="src\assets\pics\studio\2.jpeg" />
+                        <img src="\assets\pics\studio\2.jpeg" />
                     </label>
                     <label className="card" htmlFor="item-3" id="selector-3">
-                        <img src="src\assets\pics\studio\3.jpeg" />
+                        <img src="\assets\pics\studio\3.jpeg" />
                     </label>
                     <label className="card" htmlFor="item-4" id="selector-4">
-                        <img src="src\assets\pics\studio\4.jpeg" />
+                        <img src="\assets\pics\studio\4.jpeg" />
                     </label>
 
                 </div>
