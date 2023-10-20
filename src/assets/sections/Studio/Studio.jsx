@@ -1,9 +1,4 @@
 import './Studio.css'
-import foto1 from '../../../../public/assets/pics/studio/1.jpeg'
-import foto2 from '../../../../public/assets/pics/studio/2.jpeg'
-import foto3 from '../../../../public/assets/pics/studio/3.jpeg'
-import foto4 from '../../../../public/assets/pics/studio/4.jpeg'
-import foto5 from '../../../../public/assets/pics/studio/5.jpeg'
 
 const images = [ foto1, foto2, foto3, foto4, foto5];
 
