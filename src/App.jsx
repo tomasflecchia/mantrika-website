@@ -1,5 +1,5 @@
 import './App.css'
-import { Profile, Studio, Trattamenti, Contact, Footer} from './assets/sections'
+import { Profile } from './assets/sections'
 
 function App() {
 
