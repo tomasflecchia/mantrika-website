@@ -1,7 +1,5 @@
 import './Studio.css'
 
-const images = [ foto1, foto2, foto3, foto4, foto5];
-
 export const Studio = () => {
   return (
     <>
