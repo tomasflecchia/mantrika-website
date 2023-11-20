@@ -9,9 +9,8 @@ export const Profile = () => {
         </div>
 
         <div className="corner-pic">
-            <img src=".\assets\pics\otras\angolo.jpg" className="flexbox-item ribbon" alt="Fiore" />
+            <img src=".\assets\pics\otras\angolo-final.png" className="flexbox-item ribbon" alt="Fiore" />
         </div>
-
     </>
   )
 }

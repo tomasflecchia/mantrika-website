@@ -3,45 +3,22 @@ import './Studio.css'
 export const Studio = () => {
   return (
     <>
-        <img className='img-bg'
-             src="public\assets\pics\otras\disegno-2.jpg" 
-             alt="disegno di fondo" 
-        />
-        
-        <h1 className='section-title'>Lo Studio</h1>
+        <div className="studio-container">
 
-        <div className="container__slider">
-
-            <div className="container">
-                <input type="radio" name="slider" id="item-1" defaultChecked />
-                <input type="radio" name="slider" id="item-2" />
-                <input type="radio" name="slider" id="item-3" />
-                <input type="radio" name="slider" id="item-4" />
-
-                <div className="cards">
-                    <label className="card" htmlFor="item-1" id="selector-1">
-                        <img src="\assets\pics\studio\1.jpeg" />
-                    </label>
-                    <label className="card" htmlFor="item-2" id="selector-2">
-                        <img src="\assets\pics\studio\2.jpeg" />
-                    </label>
-                    <label className="card" htmlFor="item-3" id="selector-3">
-                        <img src="\assets\pics\studio\3.jpeg" />
-                    </label>
-                    <label className="card" htmlFor="item-4" id="selector-4">
-                        <img src="\assets\pics\studio\4.jpeg" />
-                    </label>
-
-                </div>
+            <div className="studio-item studio-item-1">
+                <img className='pic' src=".\assets\pics\studio\studio01.jpeg" />
+            </div>
+            <div className="studio-item studio-item-2">
+                <img className='pic' src=".\assets\pics\studio\4.jpeg" />
+            </div>
+            <div className="studio-item studio-item-3">
+                <img className='pic' src=".\assets\pics\studio\1.jpeg" />
+            </div>
+            <div className="studio-item studio-item-4">
+                <img className='pic' src=".\assets\pics\otras\studio-title.png" />
             </div>
 
         </div>
-
-        
-
-        {/* <div className='upper-img-slider-container'>
-            <ImageSlider imageURLs = { images } />
-        </div> */}
     </>
   )
 }

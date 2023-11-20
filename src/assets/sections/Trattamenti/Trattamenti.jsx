@@ -3,67 +3,45 @@ import './Trattamenti.css'
 export const Trattamenti = () => {
   return (
     <>
-        <p className='section-text-1'>I nostri</p>
-        <h1 className='section-title'>Trattamenti</h1>
-        <div className="trattamenti-container">
-            <div className="trattamenti-containers">
-                <div className="details-container color-container">
-                    <div className="article-container">
-                        <img 
-                            src="src\assets\pics\otras\masaje01.jpg" 
-                            alt="Foto de un masaje" 
-                            className='trattamenti-img'
-                        />
-                    </div>
-                    <h2 className='trattamenti-sub-title trattamenti-title'>Ayurvedico</h2>
-                    <div className='btn-container'>
-                        <button 
-                            className='btn btn-color-2 trattamenti-btn'
-                            // onClick={}
-                            >
-                                Piu informazione
-                        </button>
-                    </div>
-                </div>
-                <div className="details-container color-container">
-                    <div className="article-container">
-                        <img 
-                            src="src\assets\pics\otras\masaje01.jpg" 
-                            alt="Foto de un masaje" 
-                            className='trattamenti-img'
-                        />
-                    </div>
-                    <h2 className='trattamenti-sub-title trattamenti-title'>Ayurvedico</h2>
-                    <div className='btn-container'>
-                        <button 
-                            className='btn btn-color-2 trattamenti-btn'
-                            // onClick={}
-                            >
-                                Piu informazione
-                        </button>
-                    </div>
-                </div>
-                <div className="details-container color-container">
-                    <div className="article-container">
-                        <img 
-                            src="src\assets\pics\otras\masaje01.jpg" 
-                            alt="Foto de un masaje" 
-                            className='trattamenti-img'
-                        />
-                    </div>
-                    <h2 className='trattamenti-sub-title trattamenti-title'>Ayurvedico</h2>
-                    <div className='btn-container'>
-                        <button 
-                            className='btn btn-color-2 trattamenti-btn'
-                            // onClick={}
-                            >
-                                Piu informazione
-                        </button>
-                    </div>
-                </div>
-
-            </div>
+        <div className="title-container">
+            <img className='title' src=".\assets\pics\otras\trattamenti-title.png" />
         </div>
+
+        <div className="trattamenti-container">
+
+            <div className="trattamenti-item">
+                <img className='pic' src=".\assets\pics\studio\viso.jpg" />
+                <div className="img-text">
+                    <p className='trattamenti-text'>Trattamenti Viso</p>
+                </div>
+            </div>
+
+            <div className="trattamenti-item">
+                <img className='pic' src=".\assets\pics\studio\piede.jpeg" />
+                <div className="img-text">
+                    <p className='trattamenti-text'>Riflessologia Plantare</p>
+                </div>
+            </div>
+
+
+            <div className="trattamenti-item">
+                <img className='pic' src=".\assets\pics\studio\massaggio.jpeg" />
+                <div className="img-text">
+                    <p className='trattamenti-text'>Drenante</p>
+                </div>
+            </div>
+
+            <div className="trattamenti-item">
+                <img className='pic' src=".\assets\pics\studio\olii.jpeg" />
+                <div className="img-text">
+                    <p className='trattamenti-text'>Massaggio Ayurvedico</p>
+                </div>
+            </div>
+
+        </div>
+
+        
+        
     </>
   )
 }

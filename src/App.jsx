@@ -1,5 +1,5 @@
 import './App.css'
-import { Profile } from './assets/sections'
+import { Profile, Studio, Trattamenti, Contact } from './assets/sections'
 
 function App() {
 
@@ -9,21 +9,35 @@ function App() {
                 <Profile />
             </section>
 
-            {/* <section id='studio'>
-                <Studio />
-            </section> */}
+            <div className="line-container">
+                <div className="lines">
+                    <div className="figure diamond"></div>
+                </div>
+            </div>
 
-            {/* <section id='trattamenti'>
+            <section id='studio'>
+                <Studio />
+            </section>
+
+            <div className="line-container">
+                <div className="lines">
+                    <div className="figure circle"></div>
+                </div>
+            </div>
+
+            <section id='trattamenti'>
                 <Trattamenti />
             </section>
+
+            <div className="line-container">
+                <div className="lines">
+                    <div className="figure diamond"></div>
+                </div>
+            </div>
 
             <section id='contact'>
                 <Contact />
             </section>
-
-            <footer>
-                <Footer />
-            </footer> */}
         </>   
     )
 }

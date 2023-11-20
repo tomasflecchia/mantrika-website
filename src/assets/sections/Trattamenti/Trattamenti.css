@@ -1,36 +1,40 @@
 
+#trattamenti {
+    height: fit-content;
+    padding-bottom: 50px;
+
+    background-image: url(./assets/pics/studio/hojas.jpg);
+    background-color: rgba(255,255,255,0.6);
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
 .trattamenti-container {
-    margin: 0 5rem;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
 }
 
-.trattamenti-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 0rem;
-    display: flex;
+.trattamenti-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+.img-text {
+    background-color: white;
     text-align: center;
+    padding: 10px 20px;
 }
 
-.trattamenti-btn {
-    width: auto;
+.trattamenti-text {
+    font-weight: 600;
 }
 
-.trattamenti-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
-}
+@media (max-width: 800px) {
 
-.trattamenti-title {
-    margin: 1rem;
-    color: black;
+    .title {
+        width: 90%;
+    }
 }

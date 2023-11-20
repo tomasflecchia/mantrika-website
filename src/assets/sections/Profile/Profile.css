@@ -1,20 +1,21 @@
 
 #profile {
     display: flex;
-    justify-content: flex-end;
 }
 
 .main-logo {
     position: relative;
+    left: 2rem;
     top: 40px;
-    width: 650px;
+    width: 50%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-grow: 1;
 
-    animation: SlideInLeft 0.5s ease;
+    animation: SlideInLeft 0.75s ease;
+    z-index: 0;
 }
 
 .main-logo p {
@@ -27,15 +28,20 @@
 }
 
 .logo {
-    height: auto;
-    width: 700px;
-    justify-content: center;
-    align-self: center;
+    width: 100%;
+}
+
+.corner-pic {
+    position: relative;
+    top: -5px;
+    width: 50%;
 }
 
 .ribbon {
-    width: auto;
+    width: 100%;
+    z-index: 1;
 }
+
 
 @keyframes SlideInLeft {
     from {
@@ -44,5 +50,42 @@
 
     to {
         transform: translateX(0);
+    }
+}
+
+@media (orientation: portrait) {
+
+    #profile {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .corner-pic {
+        display: none;
+    }
+
+    .main-logo {
+        width: 100%;
+        padding-bottom: 3rem;
+        margin-left: -25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        animation: SlideInLeft 0.75s ease;
+        z-index: 0;
+    }
+
+    .main-logo p {
+        font-size: small;
+    }
+    
+}
+
+@media (max-width: 1300px) {
+
+    #profile {
+        height: fit-content;
     }
 }
