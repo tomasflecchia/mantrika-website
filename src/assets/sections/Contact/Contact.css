@@ -12,7 +12,7 @@
     justify-content: center;
     width: 100%;
 
-    background-image: url(./assets/pics/otras/flor.png);
+    background-image: url(./pics/otras/flor.png);
     background-color: rgba(255,255,255,0.6);
     background-size: contain;
     background-blend-mode: lighten;
